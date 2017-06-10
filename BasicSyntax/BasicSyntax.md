@@ -30,8 +30,8 @@
         a = 3
         println("$a")
 
-4. 注释使用: 与Java相同
-    
+4. 注释使用与Java相同，使用 // 或者 /*
+
 5. 字符串相关定义和使用
         var a = "Hello Ray World"
         val s1 = "Test Read Only $a"
