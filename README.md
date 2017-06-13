@@ -8,10 +8,12 @@
 * [Kotlin官方文档中文翻译](https://huanglizhuo.gitbooks.io/kotlin-in-chinese/content/Basics/Basic-Types.html)
 
 ### 编译运行
-具体使用方式请参考<<[使用命令行编译运行 Kotlin](http://blog.csdn.net/liangjiu2009/article/details/72518558)>>一文,简单编译运行命令如下:
-
+具体使用方式请参考<<[ 使用命令行编译运行 Kotlin](http://blog.csdn.net/liangjiu2009/article/details/72518558) >>, OS X 下使用简单使用如下 :
+- 使用 [Homebrew](https://brew.sh/) 安装Kotlin : brew install kotlin
 - 编译 : kotlinc hello.kt -include-runtime -d hello.jar
 - 运行 : java -jar hello.jar
 
-### 示例演示
-- 简单计算器(SimpleMath.kt)[sss](/BasicSyntax/SimpleMath.kt)
+### 内容说明
+
+结合[BasicSyntax](/BasicSyntax/BasicSyntax.md), 初步认识Kotlin,熟悉其基本语法,习惯用法以及代码风格。示例演示 :
+- 简单计算器 [SimpleMath.kt](/BasicSyntax/SimpleMath.kt)
