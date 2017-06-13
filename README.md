@@ -12,3 +12,6 @@
 
 - 编译 : kotlinc hello.kt -include-runtime -d hello.jar
 - 运行 : java -jar hello.jar
+
+### 示例演示
+- 简单计算器(SimpleMath.kt)[sss](/BasicSyntax/SimpleMath.kt)
