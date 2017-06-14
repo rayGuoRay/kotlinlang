@@ -8,6 +8,7 @@
 * [Kotlin 官方文档中文翻译](https://huanglizhuo.gitbooks.io/kotlin-in-chinese/content/Basics/Basic-Types.html)
 
 ## 编译运行
+
 具体使用方式请参考<<[ 使用命令行编译运行 Kotlin ](http://blog.csdn.net/liangjiu2009/article/details/72518558)>>, OS X 下使用简单使用如下 :
 - 使用 [Homebrew](https://brew.sh/) 安装 Kotlin : brew install kotlin
 - 编译 : kotlinc hello.kt -include-runtime -d hello.jar
