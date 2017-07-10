@@ -1,4 +1,4 @@
-1. 类的声明
+### 类的声明
 
         class Entity {
 
@@ -7,9 +7,9 @@
         //如果没有类体，花括号可以省略
         class Entity
 
-2. 类的构造函数
+### 类的构造函数
 
-主构造函数三种写法:
+#### 主构造函数三种写法:
 
         class Person constructor (firstName: String) {
         }
@@ -28,7 +28,7 @@
 
         class Customer public @inject constructor (name: String) {...}
 
-二级构造函数:
+#### 二级构造函数:
 
         class Person {
             constructor (parent: Person) {
@@ -46,7 +46,7 @@
         class Person private constructor () {
         }
 
-3. 类的声明、继承与重写
+### 类的声明、继承与重写
 
 Kotlin 中类的声明不需要使用　new 关键字，声明方法如下所示：
 
@@ -95,5 +95,4 @@ Kotlin　中可以复写属性，方法，用 var 复写 val ,但是必须使用
             override abstract fun f()
         }
 
-4. 伴随对象，密封类，数据对象和接口
-        
+### 伴随对象，密封类，数据对象和接口
