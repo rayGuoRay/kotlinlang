@@ -1,10 +1,10 @@
-1. 包结构定义与包引入声明
+### 包结构定义与包引入声明
 
         package my.demo
 
         import java.util.*
 
-2. 方法（函数）声明
+### 方法（函数）声明
 
         fun sum(a: Int, b: Int): Int {
             return a + b
@@ -12,7 +12,7 @@
 
         fun sum(a: Int, b: Int): return a + b
 
-3. 变量声明
+### 变量声明
 
         var Mutable variable
         val Assign-once (read-only) local variable
@@ -34,9 +34,9 @@
         a = 3
         println("$a")
 
-4. 注释使用与Java相同，使用 // 或者 /*
+### 注释使用与Java相同，使用 // 或者 /*
 
-5. 字符串相关定义和使用
+### 字符串相关定义和使用
 
         var a = "Hello Ray World"
         val s1 = "Test Read Only $a"
@@ -50,7 +50,7 @@
         //Test Read Only Hello Ray World
         //Test Read Only Hello Our World
 
-6. 条件表达式（if）
+### 条件表达式（if）
 
         fun max1(a: Int, b: Int) : Int{
             if (a > b) {
@@ -85,7 +85,7 @@
             println("the max value of a and b is ${max3(a, b)}")
         }
 
-7. 重要特性：可为空的值的使用和检查是否为空
+### 重要特性：可为空的值的使用和检查是否为空
 
         //类型后面加?表示可为空
         var age: String? = "23"
@@ -98,12 +98,12 @@
         //其中的”？“符号是可为空，”!!“是像Java一样抛出空异常，"?:"则是再进行判断”如果为空，则执行后面那句“。
         //此处不同于 Java 中的三目运算符   
 
-8. 类型检查和自动转换
+### 类型检查和自动转换
 
         //使用 is 来检查是不是某种类型，类似 Java 中的 instanceof
         if (a is Sring) / if (a !is String)    
 
-9. 循环表达式 (for / while)、range、集合与Lamada表达式的使用
+### 循环表达式 (for / while)、range、集合与Lamada表达式的使用
 
         fun exampleForLoop(item : List<Int>) {
             for (itemString in item) {
@@ -138,7 +138,7 @@
             }
         }
 
-10. when 表达式
+### when 表达式
 
         //类似于Java中的 switch case ，但是switch规则要更丰富
         when {
