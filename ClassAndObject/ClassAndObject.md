@@ -94,5 +94,3 @@ Kotlin　中可以复写属性，方法，用 var 复写 val ,但是必须使用
         abstract class Derived : Base() {
             override abstract fun f()
         }
-
-### 伴随对象，密封类，数据对象和接口

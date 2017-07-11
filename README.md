@@ -23,3 +23,7 @@
 结合[ ClassAndObject.md ](/ClassAndObject/ClassAndObject.md),了解类和对象在 Kotlin 中的写法以及注意事项。示例演示 :
 
 - 简单电影院模型[ SimpleCinema.kt ](/ClassAndObject/SimpleCinema.kt)
+
+结合[ ObjectAnnounce,md ](/ObjectAnnounce/ObjectAnnounce.md),了解接口，数据对象，伴随对象，密封类的用法以及注意事项。示例演示:
+
+- 电影院模型进阶[ CinemaFactory](/ObjectAnnounce/CinemaFactory/)
